@@ -1,3 +1,4 @@
+"N-Queens Problem"
 def is_safe(board, row, col):
     for prev_row in range(row):
         placed = board[prev_row]
